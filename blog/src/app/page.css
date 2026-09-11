@@ -1,0 +1,48 @@
+.imgWoman{
+    width: 500px;
+    height: 800px;
+    margin-right: 100px;
+}
+
+.img{
+    display: flex;
+    align-items: flex-end;
+}
+
+.caixaGrande{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.caixaMedia{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.texto{
+    width: 50% ;
+    margin-left: 100px;
+}
+.texto p {
+    width: 55%;
+    font-size: 20px;
+}
+
+.HomeName{
+    margin-bottom: 50px;
+    font-size: 100px;
+}
+
+.btnExp{
+    margin-top: 100px;
+    margin-left: 20px;
+    border: none;
+    background-color: rgb(28, 28, 28);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+}

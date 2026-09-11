@@ -1,0 +1,25 @@
+.card_post_blog {
+    display: flex;
+    gap: 10px;
+    width: 400px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.card_post_blog img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card_post_blog div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.categoria {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}

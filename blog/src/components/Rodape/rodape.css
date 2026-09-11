@@ -1,0 +1,47 @@
+
+.listaHead {
+    list-style-type: none;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding: 30px;
+    justify-content: center;
+    color: white;
+    gap: 80px;
+  }
+  
+  
+  
+  ul li {
+    
+    list-style-type: none;
+  }
+  
+  .text-white{
+    color: white;
+    text-decoration: none;
+  }
+
+/*Isso força a estrutura do site a esticar e ocupar sempre 
+100% da altura da tela do navegador*/
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* O elemento que fica entre o topo e o rodapé (seu conteúdo principal) */
+/* Ele vai crescer e ocupar todo o espaço restante, empurrando o rodapé para o chão */
+main, .conteudo-da-pagina {
+  flex: 1;
+}
+
+.footer{
+    width: 100%;
+  }
+  
